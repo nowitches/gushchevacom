@@ -47,9 +47,11 @@ h1 {
 
 .title-lottery {
     text-decoration: underline;
+    font-family: 'Work Sans', sans-serif;
     text-decoration-thickness: 4px;
     text-underline-offset: 8px;
     -webkit-user-select: none;
+    user-select: none;
     cursor: pointer
 }
 
