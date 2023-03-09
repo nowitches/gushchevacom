@@ -156,10 +156,11 @@ li {
 
 
 .subtitle {
-    font-size: 32px;
+    font-size: 18px;
     line-height: 150%;
     font-weight: 300;
     color: rgb(125, 120, 112);
+    margin-top: 8px;
 }
 
 .description {
