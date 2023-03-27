@@ -3,7 +3,7 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
 
 function getKristinasTitle()
 {
-    var titleArray= new Array("disabled person","senior UX designer", "person", "illustrator", "video game enthusiast", "design systems expert", "design generalist");
+    var titleArray= new Array("disabled person","senior UX designer", "design mentor", "digital illustrator", "video game enthusiast", "design systems expert", "design generalist");
     var random = titleArray[Math.floor(Math.random() * titleArray.length)];
    document.getElementById("res").innerHTML=random;
 }
