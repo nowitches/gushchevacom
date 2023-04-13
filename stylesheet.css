@@ -117,7 +117,7 @@ li {
     display: inline-block;
     font-size: 3em;
     text-transform: lowercase;
-    line-height: 16px;
+    line-height: 0;
 }
 
 .top-navigation {
@@ -125,7 +125,7 @@ li {
     flex-wrap: wrap;
     align-content: center;
     justify-content: flex-start;
-    margin-top: 8vh;
+    margin-top: 16vh;
     margin-bottom: 8vh;
     align-items: center;
 }
@@ -139,7 +139,6 @@ li {
 .nav-links li {
     list-style: none;
     margin-right: 16px;
-    margin-top: 4vh;
 }
 
 .nav-link-item {
@@ -185,6 +184,7 @@ li {
     font-weight: 300;
     color: rgb(25, 25, 25);
     margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .description {
@@ -347,4 +347,12 @@ a i {
 .offcanvas-img {
     width: 100%;
     margin-bottom: 16px;
+}
+
+.pill-group {
+    margin-top: 32px;
+}
+
+.pill-list {
+    margin-top: 8px;
 }
