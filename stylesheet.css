@@ -12,17 +12,14 @@ body {
 }
 
 a {
-    color: rgb(246, 235, 211);
+    color: blanchedalmond;
     text-underline-offset: 2px;
     font-family: 'Helvetica', sans-serif;
+    font-weight: 300;
 }
 
 a:hover {
     color: pink;
-    line-height: 0%;
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    font-weight: 400;
 }
 
 section {
@@ -48,6 +45,7 @@ h1 {
 .title-lottery {
     text-decoration: underline;
     font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
     text-decoration-thickness: 4px;
     text-underline-offset: 8px;
     -webkit-user-select: none;
@@ -69,6 +67,11 @@ h2 {
     font-weight: 700;
     line-height: 150%;
     margin-bottom: 4vh;
+}
+
+h3 {
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 16px;
 }
 
 p {
@@ -114,7 +117,7 @@ li {
     display: inline-block;
     font-size: 3em;
     text-transform: lowercase;
-    line-height: 0%;
+    line-height: 16px;
 }
 
 .top-navigation {
@@ -135,7 +138,8 @@ li {
 
 .nav-links li {
     list-style: none;
-    margin: 12px;
+    margin-right: 16px;
+    margin-top: 4vh;
 }
 
 .nav-link-item {
@@ -145,15 +149,33 @@ li {
 
 .special-link {
     font-size: 32px;
+    display: inline-block;
     font-weight: 300;
-    line-height: 50px;
     text-decoration-thickness: 2px;
     text-underline-offset: 4px;
     cursor: pointer;
+    vertical-align: text-top;
+}
+
+.special-heading {
+    font-size: 32px;
+    display: inline-block;
+    font-weight: 300;
+    vertical-align: text-top;
+    font-family: 'Helvetica', sans-serif;
+    margin-bottom: 0px;
 }
 
 .special-link:hover {
-    line-height: 50px;
+    color: rgb(157, 128, 112);
+}
+
+.special-link i {
+   display: inline-block;
+}
+
+.special-link:hover i {
+    transform: translateX(25%);
 }
 
 
@@ -248,9 +270,81 @@ footer {
     font-weight: 400;
 }
 
-.scrollspy-nav {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 50%;
-    overflow: hidden;
+
+.offcanvas-style {
+    background-color: rgb(25, 25, 25);
+}
+
+.offcanvas-p {
+    font-size: 16px;
+}
+
+.offcanvas-caption {
+    font-size: 12px;
+    line-height: 150%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.offcanvas-heading {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.link-pill {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 40px;
+    background-color: rgb(25, 25, 25);
+    outline: solid 1px blanchedalmond;
+    padding: 8px 16px;
+    text-decoration: none;
+    outline-offset: -1px;
+}
+
+.link-pill i {
+    padding-right: 8px;
+}
+
+.link-pill:hover {
+    color: blanchedalmond;
+    color: rgb(25, 25, 25);
+    background-color: blanchedalmond;
+
+}
+
+.pill-offcanvas {
+    margin-left: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.ul-offcanvas {
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 200;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.ul-offcanvas li {
+    list-style: circle;
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 16px;
+}
+
+a i {
+    margin-left: 2px;
+}
+
+.spacer {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.offcanvas-img {
+    width: 100%;
+    margin-bottom: 16px;
 }
