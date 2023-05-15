@@ -313,6 +313,13 @@ footer {
 
 }
 
+.link-pill:focus {
+    color: blanchedalmond;
+    color: rgb(25, 25, 25);
+    background-color: blanchedalmond;
+
+}
+
 .pill-offcanvas {
     margin-left: 16px;
     margin-top: 16px;
