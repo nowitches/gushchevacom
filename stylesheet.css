@@ -364,3 +364,15 @@ a i {
 .slight {
     color: blanchedalmond;
 }
+
+
+.work-sample-list {
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.work-sample-list li {
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 200;
+}
