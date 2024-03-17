@@ -5,27 +5,24 @@ html {
 body {
     color: blanchedalmond;
     background-color:rgb(25, 25, 25);
-    font-family: 'Helvetica', sans-serif;
+    font-family: "stevie-sans", sans-serif;
     font-weight: 300;
     font-style: normal;
     font-smooth: auto;
+    font-size: 1.375rem;
 }
 
 a {
     color: blanchedalmond;
     text-underline-offset: 4px;
-    font-family: 'Helvetica', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
+    font-weight: 500;
     line-height: 150%;
 }
 
 .a-style-p {
     color: blanchedalmond;
-    font-family: 'Helvetica', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 170%;
+    font-weight: 500;
+    line-height: 150%;
 }
 
 a:hover {
@@ -34,20 +31,9 @@ a:hover {
 
 h1 {
     font-family: 'Work Sans', sans-serif;
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 700;
     margin-bottom: 2rem;
-}
-
-.title-lottery {
-    text-decoration: underline;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 600;
-    text-decoration-thickness: 4px;
-    text-underline-offset: 8px;
-    -webkit-user-select: none;
-    user-select: none;
-    cursor: pointer
 }
 
 .top-link {
@@ -56,9 +42,8 @@ h1 {
 
 h2 {
     font-family: 'Work Sans', sans-serif;
-    font-size: 2.25rem;
+    font-size: 3rem;
     font-weight: 700;
-    line-height: 150%;
     margin-bottom: 2rem;
 }
 
@@ -72,16 +57,13 @@ h3 {
 }
 
 p {
-    font-size: 1rem;
     line-height: 170%;
-    font-weight: 200;
-    font-family: 'Roboto Mono', monospace;
     margin-bottom: 0;
     margin-top: 0;
 }
 
 .p-small {
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-bottom: 0.5rem;
 }
 
@@ -96,11 +78,10 @@ p {
 }
 
 .xp-chip {
-    font-size: 0.8rem;
+    font-size: 1rem;
     background-color: rgb(56, 52, 52);
     display: flex;
     padding: 0.25rem 0.5rem 0.25rem 0.5rem;
-    font-family: Arial, Helvetica, sans-serif;
     border-radius: 4px;
     letter-spacing: 1px;
 }
@@ -120,7 +101,7 @@ p {
 
 
 .content-section {
-    padding-top: 10rem;
+    padding-top: 12rem;
 }
 
 .content-block {
@@ -134,15 +115,11 @@ p {
 }
 
 .xp-entry {
-    padding-bottom: 4rem;
+    padding-bottom: 5rem;
 }
 
 .offcanvas-style {
     background-color: rgb(25, 25, 25);
-}
-
-.offcanvas-p {
-    font-size: 16px;
 }
 
 .offcanvas-caption {
@@ -178,7 +155,7 @@ p {
 
 .asset-caption p {
     width: 100%;
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 150%;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -231,9 +208,8 @@ p {
 }
 
 .link-pill {
-    font-size: 1rem;
     font-weight: 400;
-    line-height: 1.5rem;
+    line-height: 150%;
     border-radius: 40px;
     background-color: rgb(25, 25, 25);
     outline: solid 1px blanchedalmond;
@@ -328,6 +304,10 @@ a i {
     box-shadow: 8px 8px 0px 2px #FCECD0;
 }
 
+.feedback-p {
+    font-size: 1.25rem;
+}
+
 .col-gap {
     display: flex;
     flex-direction: column;
@@ -339,6 +319,11 @@ a i {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
+    font-size: 0.75rem;
+    line-height: 150%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 1rem;
 }
 
 footer {
@@ -346,11 +331,23 @@ footer {
     flex-direction: column;
     align-items: center;
     margin: 8rem 0 2rem 0;
+    font-size: 0.75rem;
+    line-height: 150%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 @media only screen and (max-width: 600px) {
     h1 {
-      font-size: 48px;
+      font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+    }
+
+    body {
+        font-size: 1.25rem;
     }
 
     .content-section {
